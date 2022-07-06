@@ -7,18 +7,17 @@
     <title>Formulaire-M</title>
 </head>
 <body>
-    <form action="" method="get">
+    <form action="" method="post">
         <label for="nom">Nom : </label>
         <input type="text" name="nom" id="nom">
 
-        <label for="nom">Nom : </label>
-        <input type="text" name="nom" id="nom">
+        <label for="prenom">Prénom : </label>
+        <input type="text" name="prenom" id="prenom">
 
-        <label for="nom">Nom : </label>
-        <input type="email" name="nom" id="nom">
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email">
 
-        <label for="nom">Nom : </label>
-        <input type="text" name="nom" id="nom">
+        <button type="submit">Envoyer</button>
     </form>
 </body>
 </html>
